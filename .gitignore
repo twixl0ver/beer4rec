@@ -1,0 +1,28 @@
+# Python and development tools
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.uv-cache/
+.pre-commit-cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Local data and experiment outputs
+/data/
+/artifacts/
+/models/
+/mlruns/
+*.log
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
